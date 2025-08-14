@@ -1,0 +1,37 @@
+{
+    "name": "microbit V3",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "servo": "*",
+        "radio-broadcast": "*",
+        "datalogger": "*",
+        "audio-recording": "*",
+        "microturtle": "github:microsoft/pxt-microturtle#v0.0.10",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6",
+        "pxt-kitronik-servo-lite": "github:kitronikltd/pxt-kitronik-servo-lite#v1.0.9",
+        "pxt-kitronik-motor-driver": "github:kitronikltd/pxt-kitronik-motor-driver#v0.0.8",
+        "smarthome-kit": "github:tinkertanker/pxt-smarthome#v2.2.5",
+        "pxt-wifi": "github:solderedelectronics/pxt-wifi#v1.1.0",
+        "iClass IoT": "github:kelieleung/pxt-iclassiot#v0.0.3",
+        "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v2.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.15",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
